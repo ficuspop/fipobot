@@ -9,9 +9,10 @@ client.on('ready', () => {
 
 client.on("message", async (msg) => {
   if (msg.content === "!help") {
-    msg.channel.send(
-`「!nDn」 ダイスを振ります。
-「!exit」 botを終了します。`
+    msg.channel.send(`
+「!nDn」 ダイスを振ります。
+「!exit」 botを終了します。
+`
     );
   }
 });
